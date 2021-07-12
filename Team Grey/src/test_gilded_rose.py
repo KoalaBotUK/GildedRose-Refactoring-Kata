@@ -5,10 +5,10 @@ from gilded_rose import Item, GildedRose
 
 #Spec part 1
 def test_qualityDegrading():
-    items = [Item("foo", 0, 2)]
+    items = [Item("foo", 3, 10), Item("foo", 0, 10)]
     gilded_rose = GildedRose(items)
     gilded_rose.update_quality()
-    assert 0 == items[0].quality
+    assert items[1].quality == items[0].quality
 
 #Spec part 2
 def test_nonNegative():
