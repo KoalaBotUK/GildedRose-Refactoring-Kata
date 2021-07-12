@@ -3,3 +3,6 @@
 .coverage
 .idea/
 *.iml
+lib/
+share/
+pyvenv.cfg
