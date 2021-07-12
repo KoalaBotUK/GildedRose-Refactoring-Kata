@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 Joe Taylor
 Ikenna Orabueze
+=======
+JoE TaYlOr
+>>>>>>> 0edd0a3 (Rebased for main)
 Aqeel Little
 Oluwaponmile Femi-Sunmaila
 Jonathan Lam
